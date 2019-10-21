@@ -13,6 +13,7 @@ var searchData=
   ['serializer',['Serializer',['../classasn1_1_1_serializer.html',1,'asn1']]],
   ['servercredentials',['ServerCredentials',['../class_server_credentials.html',1,'']]],
   ['shortcircuitsecondary',['ShortCircuitSecondary',['../class_short_circuit_secondary.html',1,'']]],
+  ['sighandler',['SigHandler',['../class_sig_handler.html',1,'']]],
   ['slowretrievalhandler',['SlowRetrievalHandler',['../classtest__fixtures_1_1_slow_retrieval_handler.html',1,'test_fixtures']]],
   ['snapshot',['Snapshot',['../class_uptane_1_1_snapshot.html',1,'Uptane']]],
   ['socket',['Socket',['../class_socket.html',1,'']]],
@@ -35,5 +36,6 @@ var searchData=
   ['storagelock',['StorageLock',['../class_storage_lock.html',1,'']]],
   ['storagetargetrhandle',['StorageTargetRHandle',['../class_storage_target_r_handle.html',1,'']]],
   ['storagetargetwhandle',['StorageTargetWHandle',['../class_storage_target_w_handle.html',1,'']]],
-  ['subcommand',['SubCommand',['../struct_sub_command.html',1,'']]]
+  ['subcommand',['SubCommand',['../struct_sub_command.html',1,'']]],
+  ['sysroot',['Sysroot',['../classtest__fixtures_1_1_sysroot.html',1,'test_fixtures']]]
 ];

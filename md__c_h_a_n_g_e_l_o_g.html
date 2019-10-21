@@ -66,6 +66,18 @@ $(function() {
 <div class="textblock"><p>This file summarizes notable changes introduced in aktualizr version. It roughly follows the guidelines from <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
 <p>Our versioning scheme is <code>YEAR.N</code> where <code>N</code> is incremented whenever a new release is deemed necessary. Thus it does not exactly map to months of the year.</p>
 <h2>[??? (unreleased)]</h2>
+<h2>[2019.9] - 2019-10-16</h2>
+<h3>Added</h3>
+<ul>
+<li>Handle POSIX signals: <a href="https://github.com/advancedtelematic/aktualizr/pull/1384">PR</a></li>
+<li>Store target custom metadata when installing: <a href="https://github.com/advancedtelematic/aktualizr/pull/1370">PR</a></li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Incorrect installation status reported if installation interrupted: <a href="https://github.com/advancedtelematic/aktualizr/pull/1402">PR</a></li>
+<li>Binary updates of secondaries from an OSTree primary is again possible: <a href="https://github.com/advancedtelematic/aktualizr/pull/1395">PR</a></li>
+<li>Applications built from release tarballs now report a valid version: <a href="https://github.com/advancedtelematic/aktualizr/pull/1415">PR</a></li>
+</ul>
 <h2>[2019.8] - 2019-09-12</h2>
 <h3>Fixed</h3>
 <ul>

@@ -67,6 +67,9 @@ $(function() {
 <div class="title">DockerApp Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This package manager compliments the OSTreePackageManager by also including optional Docker Apps.  
+ <a href="struct_docker_app.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for DockerApp:</div>
 <div class="dyncontent">
@@ -105,8 +108,12 @@ boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>co
 <tr class="separator:a068bb720f07fbc1a1c5b40ca3c190e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="dockerappmanager_8cc_source.html#l00005">5</a> of file <a class="el" href="dockerappmanager_8cc_source.html">dockerappmanager.cc</a>.</p>
+<div class="textblock"><p>This package manager compliments the OSTreePackageManager by also including optional Docker Apps. </p>
+<p>A full description of the Docker App project can be found here: <a href="https://github.com/docker/app/">https://github.com/docker/app/</a></p>
+<p>Docker Apps are very analogous to docker-compose. In fact, this module currently "renders" the docker-app file into a docker-compose file. Each Docker App appears as a Target in the TUF targets list. Each OStree target can then reference these docker apps in its custom data section. eg:</p>
+<p>"targets": { httpd.dockerapp-1 : { "custom" : {"hardwareIds" : ["all"], "name" : "httpd.dockerapp", "version" : "1"}, "hashes" : {"sha256" : "f0ad4e3ce6a5e9cb70c9d747e977fddfacd08419deec0714622029b12dde8338"}, "length" : 889 }, "raspberrypi3-64-lmp-144" : { "custom" : { "docker_apps" : { "httpd" : { "filename" : "httpd.dockerapp-1" } }, "hardwareIds" : ["raspberrypi3-64"], "name" : "raspberrypi3-64-lmp", "targetFormat" : "OSTREE", "version" : "144" }, "hashes" : {"sha256" : "20ac4f7cd50cda6bfed0caa1f8231cc9a7e40bec60026c66df5f7e143af96942"}, "length" : 0 } } </p>
+
+<p class="definition">Definition at line <a class="el" href="dockerappmanager_8cc_source.html#l00040">40</a> of file <a class="el" href="dockerappmanager_8cc_source.html">dockerappmanager.cc</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/libaktualizr/package_manager/<a class="el" href="dockerappmanager_8cc_source.html">dockerappmanager.cc</a></li>
 </ul>

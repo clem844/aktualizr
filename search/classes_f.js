@@ -2,6 +2,8 @@ var searchData=
 [
   ['oauth2',['OAuth2',['../class_o_auth2.html',1,'']]],
   ['ostreecommitparseerror',['OSTreeCommitParseError',['../class_o_s_tree_commit_parse_error.html',1,'']]],
+  ['ostreedeploymentinfo',['OstreeDeploymentInfo',['../struct_ostree_deployment_info.html',1,'']]],
+  ['ostreedeploymentversion',['OstreeDeploymentVersion',['../struct_ostree_deployment_version.html',1,'']]],
   ['ostreedirrepo',['OSTreeDirRepo',['../class_o_s_tree_dir_repo.html',1,'']]],
   ['ostreehash',['OSTreeHash',['../class_o_s_tree_hash.html',1,'']]],
   ['ostreehttprepo',['OSTreeHttpRepo',['../class_o_s_tree_http_repo.html',1,'']]],
