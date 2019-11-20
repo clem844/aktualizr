@@ -66,6 +66,28 @@ $(function() {
 <div class="textblock"><p>This file summarizes notable changes introduced in aktualizr version. It roughly follows the guidelines from <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
 <p>Our versioning scheme is <code>YEAR.N</code> where <code>N</code> is incremented whenever a new release is deemed necessary. Thus it does not exactly map to months of the year.</p>
 <h2>[??? (unreleased)]</h2>
+<h2>[2019.10] - 2019-11-15</h2>
+<h3>Added</h3>
+<ul>
+<li>Option to send Android repo manifest via garage-push: <a href="https://github.com/advancedtelematic/aktualizr/pull/1440">PR</a></li>
+<li>Expanded <a href="https://github.com/advancedtelematic/aktualizr/blob/master/include/libaktualizr-c.h">C API</a>: <a href="https://github.com/advancedtelematic/aktualizr/pull/1387">PR #1387</a> and <a href="https://github.com/advancedtelematic/aktualizr/pull/1429">PR #1429</a></li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Hardware information is only sent if it has changed: <a href="https://github.com/advancedtelematic/aktualizr/pull/1434">PR</a></li>
+<li>Builds without OSTree now default to using the binary package manager: <a href="https://github.com/advancedtelematic/aktualizr/pull/1432">PR</a></li>
+<li>New endpoint for reporting hardware information: <a href="https://github.com/advancedtelematic/aktualizr/pull/1421">PR</a></li>
+</ul>
+<h3>Removed</h3>
+<ul>
+<li>libsystemd dependency and socket activation support: <a href="https://github.com/advancedtelematic/aktualizr/pull/1437">PR</a></li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Enforce a limit of 10 HTTP redirects: <a href="https://github.com/advancedtelematic/aktualizr/pull/1420">PR</a></li>
+<li>Reject malformed root.json: <a href="https://github.com/advancedtelematic/aktualizr/pull/1417">PR</a></li>
+<li>Fall back on full file download if byte range requests are not supported: <a href="https://github.com/advancedtelematic/aktualizr/pull/1416">PR</a></li>
+</ul>
 <h2>[2019.9] - 2019-10-16</h2>
 <h3>Added</h3>
 <ul>

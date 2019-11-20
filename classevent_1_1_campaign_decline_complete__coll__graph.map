@@ -1,5 +1,5 @@
 <map id="event::CampaignDeclineComplete" name="event::CampaignDeclineComplete">
-<area shape="rect" id="node2" href="$classevent_1_1_base_event.html" title="Base class for all event objects. " alt="" coords="53,185,179,212"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="76,96,156,123"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="53,5,179,47"/>
+<area shape="rect" id="node2" href="$classevent_1_1_base_event.html" title="Base class for all event objects. " alt="" coords="60,185,196,212"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="85,96,171,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="59,5,197,47"/>
 </map>
