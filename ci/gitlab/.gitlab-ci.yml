@@ -92,6 +92,8 @@ coverage:
   artifacts:
     paths:
       - build-coverage/coverage/
+    reports:
+      junit: build-coverage/coverage/
   script:
     - aws s3 cp s3://ota-gitlab-ci/hereotaconnect_prod.zip $CI_PROJECT_DIR/credentials.zip
     - ./scripts/test.sh
