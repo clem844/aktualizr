@@ -73,9 +73,10 @@ Docker Setup:
 
 coverage:
   variables:
+    TEST_WITH_TESTSUITE: '1'
+    TEST_WITH_COVERAGE: '0'
     TEST_BUILD_DIR: 'build-coverage'
     TEST_CMAKE_BUILD_TYPE: 'Valgrind'
-    TEST_WITH_COVERAGE: '1'
     TEST_WITH_P11: '1'
     TEST_WITH_DOCKERAPP: '1'
     TEST_WITH_FAULT_INJECTION: '1'
@@ -92,8 +93,9 @@ coverage:
   artifacts:
     paths:
       - build-coverage/coverage/
+      - build-coverage/Testing/
     reports:
-      junit: build-coverage/coverage/
+      junit: build-coverage/Testing/**/Test.xml
   script:
     - aws s3 cp s3://ota-gitlab-ci/hereotaconnect_prod.zip $CI_PROJECT_DIR/credentials.zip
     - ./scripts/test.sh

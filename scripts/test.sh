@@ -95,7 +95,7 @@ run_make() (
     (
         set +u  # needed for bash < 4.4
         set -x
-        export CTEST_OUTPUT_ON_FAILURE=1
+        export CTEST_OUTPUT_ON_FAILURE=0
         export CTEST_PARALLEL_LEVEL="${TEST_PARALLEL_LEVEL}"
         cmake --build . "${target[@]}" -- -j"${TEST_PARALLEL_LEVEL}" "$@"
     )

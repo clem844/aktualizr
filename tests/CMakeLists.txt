@@ -36,7 +36,7 @@ foreach(label ${TESTSUITE_EXCLUDE})
     set(CTEST_EXTRA_ARGS ${CTEST_EXTRA_ARGS} -LE ${label})
 endforeach()
 
-add_custom_target(check COMMAND CTEST_OUTPUT_ON_FAILURE=1 ${CMAKE_CTEST_COMMAND} ${CTEST_EXTRA_ARGS}
+add_custom_target(check COMMAND CTEST_OUTPUT_ON_FAILURE=0 ${CMAKE_CTEST_COMMAND} ${CTEST_EXTRA_ARGS}
                   DEPENDS build_tests
                   USES_TERMINAL
                   WORKING_DIRECTORY ${PROJECT_BINARY_DIR}
