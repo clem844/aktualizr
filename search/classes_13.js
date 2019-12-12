@@ -20,6 +20,6 @@ var searchData=
   ['timestampmeta',['TimestampMeta',['../class_uptane_1_1_timestamp_meta.html',1,'Uptane']]],
   ['tlsconfig',['TlsConfig',['../struct_tls_config.html',1,'']]],
   ['token',['Token',['../classasn1_1_1_token.html',1,'asn1']]],
-  ['treehub',['Treehub',['../classtest__fixtures_1_1_treehub.html',1,'test_fixtures']]],
+  ['treehub',['Treehub',['../class_treehub.html',1,'Treehub'],['../classtest__fixtures_1_1_treehub.html',1,'test_fixtures.Treehub']]],
   ['treehubserver',['TreehubServer',['../class_treehub_server.html',1,'']]]
 ];

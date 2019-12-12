@@ -5,6 +5,8 @@ var searchData=
   ['managedsecondary',['ManagedSecondary',['../class_primary_1_1_managed_secondary.html',1,'Primary']]],
   ['managedsecondaryconfig',['ManagedSecondaryConfig',['../class_primary_1_1_managed_secondary_config.html',1,'Primary']]],
   ['manifest',['Manifest',['../class_uptane_1_1_manifest.html',1,'Uptane']]],
+  ['metadata',['Metadata',['../class_metadata.html',1,'']]],
+  ['metadatainvalidator',['MetadataInvalidator',['../class_secondary_uptane_verification_test_negative_1_1_metadata_invalidator.html',1,'SecondaryUptaneVerificationTestNegative']]],
   ['metafake',['MetaFake',['../class_meta_fake.html',1,'']]],
   ['metapack',['MetaPack',['../struct_uptane_1_1_meta_pack.html',1,'Uptane']]],
   ['metawithkeys',['MetaWithKeys',['../class_uptane_1_1_meta_with_keys.html',1,'Uptane::MetaWithKeys'],['../class_uptane_1_1_meta_with_keys.html#a5b3d25b02a42b89505e48ad8f68271b4',1,'Uptane::MetaWithKeys::MetaWithKeys()'],['../class_uptane_1_1_meta_with_keys.html#a1425a1db9088fb3af95d9b8f64f76d2f',1,'Uptane::MetaWithKeys::MetaWithKeys(const Json::Value &amp;json)']]],

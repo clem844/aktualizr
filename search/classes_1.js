@@ -12,6 +12,7 @@ var searchData=
   ['aktualizrsecondaryinterface',['AktualizrSecondaryInterface',['../class_aktualizr_secondary_interface.html',1,'']]],
   ['aktualizrsecondarynetconfig',['AktualizrSecondaryNetConfig',['../struct_aktualizr_secondary_net_config.html',1,'']]],
   ['aktualizrsecondaryuptaneconfig',['AktualizrSecondaryUptaneConfig',['../struct_aktualizr_secondary_uptane_config.html',1,'']]],
+  ['aktualizrsecondarywrapper',['AktualizrSecondaryWrapper',['../class_aktualizr_secondary_wrapper.html',1,'']]],
   ['alldownloadscomplete',['AllDownloadsComplete',['../classevent_1_1_all_downloads_complete.html',1,'event']]],
   ['allinstallscomplete',['AllInstallsComplete',['../classevent_1_1_all_installs_complete.html',1,'event']]],
   ['android_5flog_5fsink',['android_log_sink',['../classandroid__log__sink.html',1,'']]],

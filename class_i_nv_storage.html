@@ -242,6 +242,12 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadDeviceIns
 <tr class="memitem:adfbc0cb3ad44b5932ced12ee30870a14"><td class="memItemLeft" align="right" valign="top"><a id="adfbc0cb3ad44b5932ced12ee30870a14"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clearInstallationResults</b> ()=0</td></tr>
 <tr class="separator:adfbc0cb3ad44b5932ced12ee30870a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6466f0ce2f395c16efb8a894aa84ad5b"><td class="memItemLeft" align="right" valign="top"><a id="a6466f0ce2f395c16efb8a894aa84ad5b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>saveEcuReportCounter</b> (const <a class="el" href="class_uptane_1_1_ecu_serial.html">Uptane::EcuSerial</a> &amp;ecu_serial, int64_t counter)=0</td></tr>
+<tr class="separator:a6466f0ce2f395c16efb8a894aa84ad5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80898877b95d4c2d6beff1d516449af"><td class="memItemLeft" align="right" valign="top"><a id="ad80898877b95d4c2d6beff1d516449af"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadEcuReportCounter</b> (std::vector&lt; std::pair&lt; <a class="el" href="class_uptane_1_1_ecu_serial.html">Uptane::EcuSerial</a>, int64_t &gt;&gt; *results)=0</td></tr>
+<tr class="separator:ad80898877b95d4c2d6beff1d516449af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb779ebd7f37528483b8c93cf6b9d5a2"><td class="memItemLeft" align="right" valign="top"><a id="afb779ebd7f37528483b8c93cf6b9d5a2"></a>
 virtual boost::optional&lt; std::pair&lt; size_t, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>checkTargetFile</b> (const <a class="el" href="class_uptane_1_1_target.html">Uptane::Target</a> &amp;target) const =0</td></tr>
 <tr class="separator:afb779ebd7f37528483b8c93cf6b9d5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +278,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>savePrimaryInstalledV
 <tr class="memitem:a9b23fe274e67a65acf9c9047d6e7ac2d"><td class="memItemLeft" align="right" valign="top"><a id="a9b23fe274e67a65acf9c9047d6e7ac2d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadPrimaryInstallationLog</b> (std::vector&lt; <a class="el" href="class_uptane_1_1_target.html">Uptane::Target</a> &gt; *log, bool only_installed)</td></tr>
 <tr class="separator:a9b23fe274e67a65acf9c9047d6e7ac2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace390f867055f1b6224605528d65a39d"><td class="memItemLeft" align="right" valign="top"><a id="ace390f867055f1b6224605528d65a39d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>importInstalledVersions</b> (const boost::filesystem::path &amp;base_path)</td></tr>
+<tr class="separator:ace390f867055f1b6224605528d65a39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

@@ -13,6 +13,8 @@ var searchData=
   ['ostreeobjectmissing',['OSTreeObjectMissing',['../class_o_s_tree_object_missing.html',1,'']]],
   ['ostreeref',['OSTreeRef',['../class_o_s_tree_ref.html',1,'']]],
   ['ostreerepo',['OSTreeRepo',['../class_o_s_tree_repo.html',1,'']]],
+  ['ostreerootfs',['OstreeRootfs',['../class_ostree_rootfs.html',1,'']]],
+  ['ostreesecondaryuptaneverificationtest',['OstreeSecondaryUptaneVerificationTest',['../class_ostree_secondary_uptane_verification_test.html',1,'']]],
   ['outputpath',['OutputPath',['../struct_device_cred_generator_1_1_output_path.html',1,'DeviceCredGenerator']]],
   ['oversizedtarget',['OversizedTarget',['../class_uptane_1_1_oversized_target.html',1,'Uptane']]]
 ];

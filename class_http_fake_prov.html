@@ -110,6 +110,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>rewrite</b> (std::str
 <tr class="memitem:a8687ce9051b372b3d5ae9de1d0a09af8 inherit pub_methods_class_http_fake"><td class="memItemLeft" align="right" valign="top"><a id="a8687ce9051b372b3d5ae9de1d0a09af8"></a>
 <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::string &amp;url, int64_t maxsize) override</td></tr>
 <tr class="separator:a8687ce9051b372b3d5ae9de1d0a09af8 inherit pub_methods_class_http_fake"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a65066b5abb7bb49732af4ea9f4215 inherit pub_methods_class_http_fake"><td class="memItemLeft" align="right" valign="top"><a id="ac8a65066b5abb7bb49732af4ea9f4215"></a>
+<a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>post</b> (const std::string &amp;url, const std::string &amp;content_type, const std::string &amp;data) override</td></tr>
+<tr class="separator:ac8a65066b5abb7bb49732af4ea9f4215 inherit pub_methods_class_http_fake"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94f3c94ebdd26ad912c243c92bac677 inherit pub_methods_class_http_fake"><td class="memItemLeft" align="right" valign="top"><a id="ab94f3c94ebdd26ad912c243c92bac677"></a>
+<a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> (const std::string &amp;url, const std::string &amp;content_type, const std::string &amp;data) override</td></tr>
+<tr class="separator:ab94f3c94ebdd26ad912c243c92bac677 inherit pub_methods_class_http_fake"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a431c2f1834eafb813c448f2f6c5cc084 inherit pub_methods_class_http_fake"><td class="memItemLeft" align="right" valign="top"><a id="a431c2f1834eafb813c448f2f6c5cc084"></a>
 std::future&lt; <a class="el" href="struct_http_response.html">HttpResponse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>downloadAsync</b> (const std::string &amp;url, curl_write_callback write_cb, curl_xferinfo_callback progress_cb, void *userp, curl_off_t from, CurlHandler *easyp) override</td></tr>
 <tr class="separator:a431c2f1834eafb813c448f2f6c5cc084 inherit pub_methods_class_http_fake"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,7 +187,7 @@ boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>me
 <div class="textblock"><p>Check that basic device info sent by aktualizr during provisioning matches our expectations. </p>
 <p>Ideally, we would compare what we have with what the server reports, but in lieu of that, we can check what we send via http. </p>
 
-<p class="definition">Definition at line <a class="el" href="libaktualizr_2uptane_2uptane__test_8cc_source.html#l00727">727</a> of file <a class="el" href="libaktualizr_2uptane_2uptane__test_8cc_source.html">uptane_test.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libaktualizr_2uptane_2uptane__test_8cc_source.html#l00734">734</a> of file <a class="el" href="libaktualizr_2uptane_2uptane__test_8cc_source.html">uptane_test.cc</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/libaktualizr/uptane/<a class="el" href="libaktualizr_2uptane_2uptane__test_8cc_source.html">uptane_test.cc</a></li>
 </ul>

@@ -79,9 +79,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a540320275c65a07779269352a34366a3"><td class="memItemLeft" align="right" valign="top"><a id="a540320275c65a07779269352a34366a3"></a>
 virtual <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::string &amp;url, int64_t maxsize)=0</td></tr>
 <tr class="separator:a540320275c65a07779269352a34366a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dcde76ee293f1c72efe36c85e286de"><td class="memItemLeft" align="right" valign="top"><a id="ac8dcde76ee293f1c72efe36c85e286de"></a>
+virtual <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>post</b> (const std::string &amp;url, const std::string &amp;content_type, const std::string &amp;data)=0</td></tr>
+<tr class="separator:ac8dcde76ee293f1c72efe36c85e286de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d60d730a2e9fc1599ec90c30751e68c"><td class="memItemLeft" align="right" valign="top"><a id="a1d60d730a2e9fc1599ec90c30751e68c"></a>
 virtual <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>post</b> (const std::string &amp;url, const Json::Value &amp;data)=0</td></tr>
 <tr class="separator:a1d60d730a2e9fc1599ec90c30751e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9c1c3556e7b602965f99611f7e4467"><td class="memItemLeft" align="right" valign="top"><a id="a1d9c1c3556e7b602965f99611f7e4467"></a>
+virtual <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> (const std::string &amp;url, const std::string &amp;content_type, const std::string &amp;data)=0</td></tr>
+<tr class="separator:a1d9c1c3556e7b602965f99611f7e4467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac33ae1d627445bdf722a1cfa39da2e33"><td class="memItemLeft" align="right" valign="top"><a id="ac33ae1d627445bdf722a1cfa39da2e33"></a>
 virtual <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> (const std::string &amp;url, const Json::Value &amp;data)=0</td></tr>
 <tr class="separator:ac33ae1d627445bdf722a1cfa39da2e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,7 +115,7 @@ static constexpr int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="httpinterface_8h_source.html#l00037">37</a> of file <a class="el" href="httpinterface_8h_source.html">httpinterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="httpinterface_8h_source.html#l00038">38</a> of file <a class="el" href="httpinterface_8h_source.html">httpinterface.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/libaktualizr/http/<a class="el" href="httpinterface_8h_source.html">httpinterface.h</a></li>
 </ul>

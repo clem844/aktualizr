@@ -66,6 +66,26 @@ $(function() {
 <div class="textblock"><p>This file summarizes notable changes introduced in aktualizr version. It roughly follows the guidelines from <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
 <p>Our versioning scheme is <code>YEAR.N</code> where <code>N</code> is incremented whenever a new release is deemed necessary. Thus it does not exactly map to months of the year.</p>
 <h2>[??? (unreleased)]</h2>
+<h2>[2019.11] - 2019-12-12</h2>
+<h3>Added</h3>
+<ul>
+<li>Allow logger to use stderr: <a href="https://github.com/advancedtelematic/aktualizr/pull/1457">PR</a></li>
+<li>Full metadata verification on IP Secondaries: <a href="https://github.com/advancedtelematic/aktualizr/pull/1449">PR</a></li>
+<li>Log when connectivity is restored after an interruption: <a href="https://github.com/advancedtelematic/aktualizr/pull/1463">PR</a></li>
+<li><a class="el" href="class_aktualizr.html" title="This class provides the main APIs necessary for launching and controlling libaktualizr. ">Aktualizr</a> now sends its configuration to the backend at boot, for audit purposes: <a href="https://github.com/advancedtelematic/aktualizr/pull/1474">PR</a></li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>The jsoncpp library is now included as a submodule and was updated to v1.8.4: <a href="https://github.com/advancedtelematic/aktualizr/pull/1462">PR</a></li>
+<li>PKCS11 engine paths auto-detection is not done at runtime anymore, but at configure time when possible: <a href="https://github.com/advancedtelematic/aktualizr/pull/1471">PR</a></li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Removed bogus warning at boot when using OStree: <a href="https://github.com/advancedtelematic/aktualizr/pull/1466">PR</a></li>
+<li>Updated the docker-app package manager to work with docker-app v0.8: <a href="https://github.com/advancedtelematic/aktualizr/pull/1468">PR</a></li>
+<li>Overriding of log level when using the docker-app package manager: <a href="https://github.com/advancedtelematic/aktualizr/pull/1478">PR</a></li>
+<li>Report correct hash of the currently installed version on IP Secondary:: <a href="https://github.com/advancedtelematic/aktualizr/pull/1485">PR</a></li>
+</ul>
 <h2>[2019.10] - 2019-11-15</h2>
 <h3>Added</h3>
 <ul>

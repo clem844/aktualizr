@@ -236,6 +236,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>storeDeviceInstallati
 <tr class="memitem:a8725b60925d323620e5c84f09da54cda inherit pub_methods_class_s_q_l_storage"><td class="memItemLeft" align="right" valign="top"><a id="a8725b60925d323620e5c84f09da54cda"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadDeviceInstallationResult</b> (<a class="el" href="structdata_1_1_installation_result.html">data::InstallationResult</a> *result, std::string *raw_report, std::string *correlation_id) override</td></tr>
 <tr class="separator:a8725b60925d323620e5c84f09da54cda inherit pub_methods_class_s_q_l_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bb05937a8cfef60a84afbd9eaf7a9d inherit pub_methods_class_s_q_l_storage"><td class="memItemLeft" align="right" valign="top"><a id="aa5bb05937a8cfef60a84afbd9eaf7a9d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>saveEcuReportCounter</b> (const <a class="el" href="class_uptane_1_1_ecu_serial.html">Uptane::EcuSerial</a> &amp;ecu_serial, int64_t counter) override</td></tr>
+<tr class="separator:aa5bb05937a8cfef60a84afbd9eaf7a9d inherit pub_methods_class_s_q_l_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae6e90facfe26baae40853dfac63e6ab inherit pub_methods_class_s_q_l_storage"><td class="memItemLeft" align="right" valign="top"><a id="aae6e90facfe26baae40853dfac63e6ab"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadEcuReportCounter</b> (std::vector&lt; std::pair&lt; <a class="el" href="class_uptane_1_1_ecu_serial.html">Uptane::EcuSerial</a>, int64_t &gt;&gt; *results) override</td></tr>
+<tr class="separator:aae6e90facfe26baae40853dfac63e6ab inherit pub_methods_class_s_q_l_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74609dd5d9f8dd12b761331fb1fb134d inherit pub_methods_class_s_q_l_storage"><td class="memItemLeft" align="right" valign="top"><a id="a74609dd5d9f8dd12b761331fb1fb134d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clearInstallationResults</b> () override</td></tr>
 <tr class="separator:a74609dd5d9f8dd12b761331fb1fb134d inherit pub_methods_class_s_q_l_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +307,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>savePrimaryInstalledV
 <tr class="memitem:a9b23fe274e67a65acf9c9047d6e7ac2d inherit pub_methods_class_i_nv_storage"><td class="memItemLeft" align="right" valign="top"><a id="a9b23fe274e67a65acf9c9047d6e7ac2d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadPrimaryInstallationLog</b> (std::vector&lt; <a class="el" href="class_uptane_1_1_target.html">Uptane::Target</a> &gt; *log, bool only_installed)</td></tr>
 <tr class="separator:a9b23fe274e67a65acf9c9047d6e7ac2d inherit pub_methods_class_i_nv_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace390f867055f1b6224605528d65a39d inherit pub_methods_class_i_nv_storage"><td class="memItemLeft" align="right" valign="top"><a id="ace390f867055f1b6224605528d65a39d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>importInstalledVersions</b> (const boost::filesystem::path &amp;base_path)</td></tr>
+<tr class="separator:ace390f867055f1b6224605528d65a39d inherit pub_methods_class_i_nv_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

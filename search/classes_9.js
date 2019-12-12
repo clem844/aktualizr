@@ -3,6 +3,7 @@ var searchData=
   ['illegalthreshold',['IllegalThreshold',['../class_uptane_1_1_illegal_threshold.html',1,'Uptane']]],
   ['imagerepo',['ImageRepo',['../classtest__fixtures_1_1_image_repo.html',1,'test_fixtures.ImageRepo'],['../class_image_repo.html',1,'ImageRepo']]],
   ['imagesrepository',['ImagesRepository',['../class_uptane_1_1_images_repository.html',1,'Uptane']]],
+  ['imetadatafetcher',['IMetadataFetcher',['../class_uptane_1_1_i_metadata_fetcher.html',1,'Uptane']]],
   ['implicitc',['ImplicitC',['../classasn1_1_1_implicit_c.html',1,'asn1']]],
   ['implicitc_3c_20tag_2c_20bool_20_26_20_3e',['ImplicitC&lt; Tag, bool &amp; &gt;',['../classasn1_1_1_implicit_c_3_01_tag_00_01bool_01_6_01_4.html',1,'asn1']]],
   ['implicitc_3c_20tag_2c_20const_20bool_20_26_20_3e',['ImplicitC&lt; Tag, const bool &amp; &gt;',['../classasn1_1_1_implicit_c_3_01_tag_00_01const_01bool_01_6_01_4.html',1,'asn1']]],

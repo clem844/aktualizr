@@ -23,10 +23,12 @@ var searchData=
   ['httpfakeprov',['HttpFakeProv',['../class_http_fake_prov.html',1,'']]],
   ['httpfakeputcounter',['HttpFakePutCounter',['../class_http_fake_put_counter.html',1,'']]],
   ['httpfakerq',['HttpFakeRq',['../class_http_fake_rq.html',1,'']]],
+  ['httpfakesplit',['HttpFakeSplit',['../class_http_fake_split.html',1,'']]],
   ['httpfakeunstable',['HttpFakeUnstable',['../class_http_fake_unstable.html',1,'']]],
   ['httpinterface',['HttpInterface',['../class_http_interface.html',1,'']]],
   ['httpputmanifestfail',['HttpPutManifestFail',['../class_http_put_manifest_fail.html',1,'']]],
   ['httprejectemptycorrid',['HttpRejectEmptyCorrId',['../class_http_reject_empty_corr_id.html',1,'']]],
   ['httpresponse',['HttpResponse',['../struct_http_response.html',1,'']]],
+  ['httpunstable',['HttpUnstable',['../class_http_unstable.html',1,'']]],
   ['httpzerolength',['HttpZeroLength',['../class_http_zero_length.html',1,'']]]
 ];

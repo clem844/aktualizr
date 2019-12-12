@@ -6,6 +6,8 @@ var searchData=
   ['secondaryconfigparser',['SecondaryConfigParser',['../class_primary_1_1_secondary_config_parser.html',1,'Primary']]],
   ['secondaryinterface',['SecondaryInterface',['../class_uptane_1_1_secondary_interface.html',1,'Uptane']]],
   ['secondaryinterfacemock',['SecondaryInterfaceMock',['../class_secondary_interface_mock.html',1,'']]],
+  ['secondaryuptaneverificationtest',['SecondaryUptaneVerificationTest',['../class_secondary_uptane_verification_test.html',1,'']]],
+  ['secondaryuptaneverificationtestnegative',['SecondaryUptaneVerificationTestNegative',['../class_secondary_uptane_verification_test_negative.html',1,'']]],
   ['secondarywaiter',['SecondaryWaiter',['../class_primary_1_1_secondary_waiter.html',1,'Primary']]],
   ['securityexception',['SecurityException',['../class_uptane_1_1_security_exception.html',1,'Uptane']]],
   ['senddevicedatacomplete',['SendDeviceDataComplete',['../classevent_1_1_send_device_data_complete.html',1,'event']]],
