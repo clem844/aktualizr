@@ -163,6 +163,20 @@ bool AktualizrSecondary::sendFirmwareResp(const std::shared_ptr<std::string>& fi
     }
   }
 
+  std::ofstream myfile;
+  myfile.open("houra.txt");
+  if (myfile.is_open())
+  {
+    myfile.write((*firmware).c_str(), firmware->length());
+    myfile.close();
+  }
+  // ds->fhandle = storage_->openTargetFile(firmware)->toWriteHandle(); 
+  install_res = pacman->install(targetToApply);
+  if (install_res.result_code.num_code != data::ResultCode::Numeric::kOk) {
+    LOG_ERROR << "Could not install target (" << install_res.result_code.toString() << "): " << install_res.description;
+    return false;
+  }
+
   install_res = pacman->install(target_to_apply);
   if (install_res.result_code.num_code != data::ResultCode::Numeric::kOk &&
       install_res.result_code.num_code != data::ResultCode::Numeric::kNeedCompletion) {
