@@ -18,7 +18,7 @@ else()
     set(TESTSUITE_VALGRIND_DEFAULT OFF)
 endif()
 
-option(WARNING_AS_ERROR "Treat warnings as errors" ON)
+option(WARNING_AS_ERROR "Treat warnings as errors" OFF)
 option(PEDANTIC_WARNINGS "Compile with pedantic warnings" OFF)
 option(BUILD_WITH_CODE_COVERAGE "Enable gcov code coverage" OFF)
 option(BUILD_OSTREE "Set to ON to compile with ostree support" OFF)
